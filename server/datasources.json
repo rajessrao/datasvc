@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "ds020938.mlab.com",
+    "port": 20938,
+    "url": "mongodb://testuser:testuser%40123@ds020938.mlab.com:20938/dbfortest",
+    "database": "dbfortest",
+    "password": "testuser@123",
+    "name": "db",
+    "user": "testuser",
+    "connector": "mongodb"
+  }
+}
