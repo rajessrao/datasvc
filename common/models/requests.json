@@ -1,0 +1,34 @@
+{
+  "name": "requests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bookid": {
+      "type": "string",
+      "required": true
+    },
+    "requestedby": {
+      "type": "string",
+      "required": true
+    },
+    "requestedto": {
+      "type": "string",
+      "required": true
+    },
+    "requesttype": {
+      "type": "string",
+      "required": true
+    },
+    "datetime": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

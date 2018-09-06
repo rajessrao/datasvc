@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "book": {
+    "dataSource": "db",
+    "public": true
+  },
+  "bookRatingsReviews": {
+    "dataSource": "db",
+    "public": true
+  },
+  "requests": {
+    "dataSource": "db",
+    "public": true
+  },
+  "requeststatus": {
+    "dataSource": "db",
+    "public": true
   }
 }
